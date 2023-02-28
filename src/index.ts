@@ -1,5 +1,6 @@
 import './style.css';
 import Icon from './tunic.png';
+import wgpu_example_init from 'wgpu-example';
 
 async function getComponent() {
     const element = document.createElement('div');
@@ -36,3 +37,5 @@ async function getComponent() {
 getComponent().then(component => {
     document.body.appendChild(component);
 })
+
+wgpu_example_init().then(() => console.log("wgpu-example loaded"));

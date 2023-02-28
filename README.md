@@ -1,3 +1,3 @@
-# webpack-demo
+# webpack-wgpu
 
-A simple setup of webpack according to https://webpack.js.org/guides/ with typescript
+A simple setup of webpack packing a wgpu app.
